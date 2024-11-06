@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+    url(https://png.pngtree.com/background/20210712/original/pngtree-cute-hand-drawn-style-mathematics-education-pink-background-picture-image_1176711.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 65vh;
+    display: flex;
+    align-items: center;
+}
+
+.header-content {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+.header-content h1 {
+    padding: 150px 0px 50px 0px;
+    font-size: 75px;
+    line-height: 50px;
+    color: #ff5656;
+    text-transform: uppercase;
+    margin-bottom:  35px;
+}
+
+.header-content p {
+    font-size: 16px;
+    color: #878fff;
+    padding: 0px 100px;
+    margin-bottom: 25px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1700px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.post {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+
+.post h2 {
+    margin-top: 0;
+}
+
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    width: 500px;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #4CAF50;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer {
+    background-color: #464646;
+    padding: 20px 0 0px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-info, .social-media {
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 18px;
+    color: #f9fafc;
+    margin-bottom: 15px;
+}
+
+.footer-content a img {
+    padding: 0px;
+    width: 30px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0 1px 0;
+    background-color: black;
+}
+
+.social-media a {
+    margin: 0 10px; /* Espacio entre los iconos */
+    text-decoration: none; /* Elimina el subrayado en los enlaces */
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+    .post {
+        padding: 10px;
+    }
+    .cta,
+    .form-container  button {
+        padding: 8px;
+    }
+}
